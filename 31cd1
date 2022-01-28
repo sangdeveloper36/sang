@@ -59,61 +59,65 @@ $banner = "
 \033[1;95m╚════════════════════════════════════════════════════════╝\n";
  
 @system('clear');
+
+
+
+
+
+
 system('clear');
 echo $banner;
 echo "\033[1;33m├─────────────────\033[1;33m┤\n"; echo "\033[1;33m│\033[3;32m Danh Sách Tool\033[1;0m  \033[1;33m├\033[1;33m───────────────────────┐\n"; echo "\033[1;33m├\033[1;33m─────────────────┘    \033[47m\033[1;90mNɢᴜʏᴇ̂̃ɴ \033[1;94mVăn \033[1;91mSáng\033[0m\033[1;33m    │\n"; echo "\033[1;33m├─────────────────────────────────────────┤\033[0m\n"; 
 echo "\033[1;37m┌─────────────────┐                       \033[1;33m│\n│\e[1;101;93m ᴛᴏᴏʟ TraoDoiSub \e[0m\033[1;37m│                       \033[1;33m│ \n└─────────────────┘                       │\n";
 echo "\033[1;33m│".$cong."\033[1;31m[".$nenCyan.$den." 1 $end\033[1;31m] \033[1;37m=> \033[1;92mTrao Đổi Sub \033[1;31m[\033[1;37mĐa Luồng \033[1;33mToken\033[1;31m]\033[1;33m   │\n"; 
 echo "\033[1;33m│".$cong."\033[1;31m[".$nenCyan.$den." 2 $end\033[1;31m] \033[1;37m=> \033[1;92mTrao Đổi Sub \033[1;31m[\033[1;37mĐa Luồng \033[1;33mCookie\033[1;31m]\033[1;33m  │\n";  
-echo "\033[1;33m│".$cong."\033[1;31m[".$nenCyan.$den." 3 $end\033[1;31m] \033[1;37m=> \033[1;92mTrao Đổi Sub Max Speed \033[1;31m[\033[\033[1;33mToken\033[1;31m]\033[1;33m  │\n"; 
 echo "\033[1;33m├─────────────────────────────────────────┤\033[0m\n"; 
 echo "\033[1;37m┌───────────────────┐                     \033[1;33m│\n│\e[1;101;93m ᴛᴏᴏʟ TuongTacCheo \e[0m\033[1;37m│                     \033[1;33m│ \n└───────────────────┘                     │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 4 $end\033[1;31m] \033[1;37m=> \033[1;92mTương Tác Chéo \033[1;31m[\033[1;37mĐa Luồng \033[1;33mToken\033[1;31m]\033[1;33m │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 5 $end\033[1;31m] \033[1;37m=> \033[1;92mTương Tác Chéo \033[1;31m[\033[1;37mĐa Luồng \033[1;33mCookie\033[1;31m]\033[1;33m│\n"; 
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 3 $end\033[1;31m] \033[1;37m=> \033[1;92mTương Tác Chéo \033[1;31m[\033[1;37mĐa Luồng \033[1;33mToken\033[1;31m]\033[1;33m │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 4 $end\033[1;31m] \033[1;37m=> \033[1;92mTương Tác Chéo \033[1;31m[\033[1;37mĐa Luồng \033[1;33mCookie\033[1;31m]\033[1;33m│\n"; 
 echo "\033[1;33m├─────────────────────────────────────────┤\033[0m\n"; 
 echo "\033[1;37m┌────────────────┐                        \033[1;33m│\n│\e[1;101;93m ᴛᴏᴏʟ Instagram \e[0m\033[1;37m│                        \033[1;33m│ \n└────────────────┘                        │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 6 $end\033[1;31m] \033[1;37m=> \033[1;92mInstagram   \033[1;31m[\033[1;33mĐơn\033[1;31m]\033[1;33m               │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 5 $end\033[1;31m] \033[1;37m=> \033[1;92mInstagram   \033[1;31m[\033[1;33mĐơn\033[1;31m]\033[1;33m               │\n";
 
 echo "\033[1;33m├─────────────────────────────────────────┤\033[0m\n"; 
 echo "\033[1;37m┌──────────────────┐                      \033[1;33m│\n│\e[1;107;94m  ᴛᴏᴏʟ Facebook   \e[0m\033[1;37m│                      \033[1;33m│ \n└──────────────────┘                      │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 7 $end\033[1;31m] \033[1;37m=> \033[1;92mTương Tác Với Bạn Bè \033[1;31m[\033[1;33mNuôi FB\033[1;31m]\033[1;33m  │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 8 $end\033[1;31m] \033[1;37m=> \033[1;92mLọc Bạn Bè Không Tương Tác\033[1;33m      │\n";
- echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 9 $end\033[1;31m] \033[1;37m=> \033[1;92mUnFollow FB       \033[1;31m[\033[1;33mHot\033[1;31m]    \033[1;33m     │\n";
- echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 10 $end\033[1;31m] \033[1;37m=> \033[1;92mTool Machine-Liker.Com  \033[1;31m[\033[1;33mFix\033[1;31m]\033[1;33m  │\n";
- echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 11 $end\033[1;31m] \033[1;37m=> \033[1;92mAuto CMT Bài Viết\033[1;31m[\033[1;33mĐa Luồng\033[1;31m]\033[1;33m    │\n";
- echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 12 $end\033[1;31m] \033[1;37m=> \033[1;92mShare Bài Viết   \033[1;31m[\033[1;33mĐa Luồng\033[1;31m]\033[1;33m    │\n";
- echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 13 $end\033[1;31m] \033[1;37m=> \033[1;92mChọc Bạn Bè    \033[1;33m                │\n";
- echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 14 $end\033[1;31m] \033[1;37m=> \033[1;92mAuto Kết Bạn FB  \033[1;31m[\033[1;33mBạn Chung\033[1;31m]\033[1;33m   │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 15 $end\033[1;31m] \033[1;37m=> \033[1;92mAuto Chấp Nhận Lời Kết Bạn  \033[1;33m   │\n";
- echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 16 $end\033[1;31m] \033[1;37m=> \033[1;92mBão Cảm Xúc Bài Viết Bạn Bè\033[1;33m    │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 6 $end\033[1;31m] \033[1;37m=> \033[1;92mTương Tác Với Bạn Bè \033[1;31m[\033[1;33mNuôi FB\033[1;31m]\033[1;33m  │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 7 $end\033[1;31m] \033[1;37m=> \033[1;92mLọc Bạn Bè Không Tương Tác\033[1;33m      │\n";
+ echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 8 $end\033[1;31m] \033[1;37m=> \033[1;92mUnFollow FB       \033[1;31m[\033[1;33mHot\033[1;31m]    \033[1;33m     │\n";
+ echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 9 $end\033[1;31m] \033[1;37m=> \033[1;92mTool Machine-Liker.Com  \033[1;31m[\033[1;33mFix\033[1;31m]\033[1;33m   │\n";
+ echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 10 $end\033[1;31m] \033[1;37m=> \033[1;92mAuto CMT Bài Viết\033[1;31m[\033[1;33mĐa Luồng\033[1;31m]\033[1;33m    │\n";
+ echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 11 $end\033[1;31m] \033[1;37m=> \033[1;92mShare Bài Viết   \033[1;31m[\033[1;33mĐa Luồng\033[1;31m]\033[1;33m    │\n";
+ echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 12 $end\033[1;31m] \033[1;37m=> \033[1;92mChọc Bạn Bè    \033[1;33m                │\n";
+ echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 13 $end\033[1;31m] \033[1;37m=> \033[1;92mAuto Kết Bạn FB  \033[1;31m[\033[1;33mBạn Chung\033[1;31m]\033[1;33m   │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 14 $end\033[1;31m] \033[1;37m=> \033[1;92mAuto Chấp Nhận Lời Kết Bạn  \033[1;33m   │\n";
+ echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 15 $end\033[1;31m] \033[1;37m=> \033[1;92mBão Cảm Xúc Bài Viết Bạn Bè\033[1;33m    │\n";
  
  
  echo "\033[1;33m├─────────────────────────────────────────┤\033[0m\n";
 echo "\033[1;37m┌─────────────────┐      \033[1;33m│\033[1;37m┌────────────────┐\n";
 echo "\033[1;33m│\033[47m\033[1;91m ᴛᴏᴏʟ Kiếm Tiền \e[0m\033[1;37m │      \033[1;33m││\e\033[1;95m\033[47m Tiện Ích Khác \e[0m\033[1;33m ├───────┐\n";
 echo "\033[1;33m└─────────────────┘      \033[1;33m│└────────────────┘       \033[1;33m│\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 17 $end\033[1;31m] \033[1;37m=> \033[1;92mTăngLikeFree  \033[1;33m│ \033[1;31m[".$nentrang.$den." 23 $end\033[1;31m] \033[1;37m=> \033[1;92mLọc Mail\033[1;33m      │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 18 $end\033[1;31m] \033[1;37m=> \033[1;92mGom Lúa     \033[1;33m  │ \033[1;31m[".$nentrang.$den." 24 $end\033[1;31m] \033[1;37m=> \033[1;92mXemInforFB   \033[1;33m │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 19 $end\033[1;31m] \033[1;37m=> \033[1;92mLike2Like     \033[1;33m│ \033[1;31m[".$nentrang.$den." 25 $end\033[1;31m] \033[1;37m=> \033[1;92mQlizz     \033[1;33m    │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 20 $end\033[1;31m] \033[1;37m=> \033[1;92mAcotien      \033[1;33m │ \033[1;31m[".$nentrang.$den." 26 $end\033[1;31m] \033[1;37m=> \033[1;92mGet Mã 2fa    \033[1;33m│\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 21 $end\033[1;31m] \033[1;37m=> \033[1;92mTeamLike      \033[1;33m│ \033[1;31m[".$nentrang.$den." 27 $end\033[1;31m] \033[1;37m=> \033[1;92mLấy Token FB  \033[1;33m│\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 22 $end\033[1;31m] \033[1;37m=> \033[1;92mAdsVideo      \033[1;33m│ \033[1;31m[".$nentrang.$den." 28 $end\033[1;31m] \033[1;37m=> \033[1;97m\033[41mFacebook Mình\033[0m \033[1;33m│\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 16 $end\033[1;31m] \033[1;37m=> \033[1;92mTăngLikeFree  \033[1;33m│ \033[1;31m[".$nentrang.$den." 22 $end\033[1;31m] \033[1;37m=> \033[1;92mLọc Mail\033[1;33m      │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 17 $end\033[1;31m] \033[1;37m=> \033[1;92mGom Lúa     \033[1;33m  │ \033[1;31m[".$nentrang.$den." 23 $end\033[1;31m] \033[1;37m=> \033[1;92mXemInforFB   \033[1;33m │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 18 $end\033[1;31m] \033[1;37m=> \033[1;92mLike2Like     \033[1;33m│ \033[1;31m[".$nentrang.$den." 24 $end\033[1;31m] \033[1;37m=> \033[1;92mQlizz     \033[1;33m    │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 19 $end\033[1;31m] \033[1;37m=> \033[1;92mAcotien      \033[1;33m │ \033[1;31m[".$nentrang.$den." 25 $end\033[1;31m] \033[1;37m=> \033[1;92mGet Mã 2fa    \033[1;33m│\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 20 $end\033[1;31m] \033[1;37m=> \033[1;92mTeamLike      \033[1;33m│ \033[1;31m[".$nentrang.$den." 26 $end\033[1;31m] \033[1;37m=> \033[1;92mLấy Token FB  \033[1;33m│\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 21 $end\033[1;31m] \033[1;37m=> \033[1;92mAdsVideo      \033[1;33m│ \033[1;31m[".$nentrang.$den." 27 $end\033[1;31m] \033[1;37m=> \033[1;97m\033[41mFacebook Mình\033[0m \033[1;33m│\n";
 
 echo "\033[1;33m├──────────────────────────────────────────────────┤\n"; 
 echo "\033[1;37m┌──────────────┐                      \033[1;33m             │\n│\e[1;107;94m Tool Bổ Sung \e[0m\033[1;37m│                      \033[1;33m             │ \n└──────────────┘                                   │\n";
 
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 29 $end\033[1;31m] \033[1;37m=> \033[1;92mCheck Live/Die,Token Và Cookie\033[1;33m          │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 30 $end\033[1;31m] \033[1;37m=> \033[1;92mTool Unpage\033[1;33m                             │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 31 $end\033[1;31m] \033[1;37m=> \033[1;92mNuôi FB\033[1;33m                                 │\n";
-echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 32 $end\033[1;31m] \033[1;37m=> \033[1;92mMonkey Rewards \033[1;33m                         │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 28 $end\033[1;31m] \033[1;37m=> \033[1;92mCheck Live/Die,Token Và Cookie\033[1;33m          │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 29 $end\033[1;31m] \033[1;37m=> \033[1;92mTool Unpage\033[1;33m                             │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 30 $end\033[1;31m] \033[1;37m=> \033[1;92mNuôi FB\033[1;33m                                 │\n";
+echo "\033[1;33m│".$cong."\033[1;31m[".$nentrang.$den." 31 $end\033[1;31m] \033[1;37m=> \033[1;92mMonkey Rewards \033[1;33m                         │\n";
 echo "\033[1;33m├──────────────────────────────────────────────────┤\n"; 
 echo $trang."~".$do."[".$luc."●".$do."] ".$trang."=> ".$luc."Vui Lòng Nhập Chế Độ: $vang";
 $datvip = trim(fgets(STDIN));
 $locked="https://run.mocky.io/v3/435cb52c-c439-4315-8216-5f9e45df75d0";
 $tdstk="https://run.mocky.io/v3/59980c33-8e4c-42d0-ba09-84a360f91a04";
 $tdsck="https://raw.githubusercontent.com/sangdeveloper36/sang/main/tdscookie";
-$oclol="https://run.mocky.io/v3/96728a1a-7f30-41e9-b2fe-6aea01995518";
-$ttctk="https://run.mocky.io/v3/5455f18d-6ae4-4941-91a8-76ddee171fe4";
+$ttctk="https://raw.githubusercontent.com/sangdeveloper36/sang/main/Tdsvip";
 $ttcck="https://run.mocky.io/v3/ddafe4e9-c9f1-4a25-af29-dd5cbf165147";
 $tuongtacfb="https://run.mocky.io/v3/88cc10b6-9128-4f97-b3c9-e5693ae05f2f";
 $locbanbe="https://run.mocky.io/v3/11207a22-9375-4dc8-aaa9-4bc46bd78284";
@@ -150,37 +154,37 @@ elseif ($datvip == "2") {
   eval(file_get_contents($tdsck));
   
 }
-elseif ($datvip == "3") {eval(file_get_contents($oclol)); }
-elseif ($datvip == "4") {eval(file_get_contents($ttctk)); } 
-elseif ($datvip == "5") {eval(file_get_contents($ttcck)); } 
-elseif ($datvip == "6") {eval(file_get_contents($intd)); }
+elseif ($datvip == "3") {eval(file_get_contents($ttctk)); } 
+elseif ($datvip == "4") {eval(file_get_contents($ttcck)); } 
+elseif ($datvip == "5") {eval(file_get_contents($intd)); }
 
-elseif ($datvip == "7") {eval(file_get_contents($tuongtacfb)); }
-elseif ($datvip == "8") {eval(file_get_contents($locbanbe)); } 
-elseif ($datvip == "9") {eval(file_get_contents($unfl)); } 
-elseif ($datvip == "10") {eval(file_get_contents($machine)); } 
-elseif ($datvip == "11") {eval(file_get_contents($autocmt)); } 
-elseif ($datvip == "12") {eval(file_get_contents($sharedl)); } 
-elseif ($datvip == "13") {eval(file_get_contents($chocbanbe)); } 
-elseif ($datvip == "14") {eval(file_get_contents($kbbanchung)); } 
-elseif ($datvip == "15") {eval(file_get_contents($acpfb)); } 
-elseif ($datvip == "16") {eval(file_get_contents($baocx)); }
-elseif ($datvip == "17") {eval(file_get_contents($tlf)); }
-elseif ($datvip == "18") {eval(file_get_contents($gomlua)); }
-elseif ($datvip == "19") {eval(file_get_contents($like2like)); }
-elseif ($datvip == "20") {eval(file_get_contents($acotien)); }
-elseif ($datvip == "21") {eval(file_get_contents($teamlike)); }
-elseif ($datvip == "22") {eval(file_get_contents($adsvideo)); }
-elseif ($datvip == "23") {eval(file_get_contents($locmail)); }
-elseif ($datvip == "24") {eval(file_get_contents($checkiffb)); }
-elseif ($datvip == "25") {eval(file_get_contents($qlizz)); }
-elseif ($datvip == "26") {eval(file_get_contents($get2fa)); }
+elseif ($datvip == "6") {eval(file_get_contents($tuongtacfb)); }
+elseif ($datvip == "7") {eval(file_get_contents($locbanbe)); } 
+elseif ($datvip == "8") {eval(file_get_contents($unfl)); } 
+elseif ($datvip == "9") {eval(file_get_contents($machine)); } 
+elseif ($datvip == "10") {eval(file_get_contents($autocmt)); } 
+elseif ($datvip == "11") {eval(file_get_contents($sharedl)); } 
+elseif ($datvip == "12") {eval(file_get_contents($chocbanbe)); } 
+elseif ($datvip == "13") {eval(file_get_contents($kbbanchung)); } 
+elseif ($datvip == "14") {eval(file_get_contents($acpfb)); } 
+elseif ($datvip == "15") {eval(file_get_contents($baocx)); }
 
-elseif ($datvip == "27") {eval(file_get_contents($laytoken)); }
+elseif ($datvip == "16") {eval(file_get_contents($tlf)); }
+elseif ($datvip == "17") {eval(file_get_contents($gomlua)); }
+elseif ($datvip == "18") {eval(file_get_contents($like2like)); }
+elseif ($datvip == "19") {eval(file_get_contents($acotien)); }
+elseif ($datvip == "20") {eval(file_get_contents($teamlike)); }
+elseif ($datvip == "21") {eval(file_get_contents($adsvideo)); }
+elseif ($datvip == "22") {eval(file_get_contents($locmail)); }
+elseif ($datvip == "23") {eval(file_get_contents($checkiffb)); }
+elseif ($datvip == "24") {eval(file_get_contents($qlizz)); }
+elseif ($datvip == "25") {eval(file_get_contents($get2fa)); }
+
+elseif ($datvip == "26") {eval(file_get_contents($laytoken)); }
 //hacklikes
-else if ($datvip == '28'){ @system('xdg-open https://facebook.com/sangnguyen.2104'); }
-elseif ($datvip == "29") {eval(file_get_contents($checklive)); }
-elseif ($datvip == "30") {eval(file_get_contents($unpage)); }
-elseif ($datvip == "31") {eval(file_get_contents($nuoifbdl)); }
-elseif ($datvip == "32") {eval(file_get_contents($monkey)); }
+else if ($datvip == '27'){ @system('xdg-open https://facebook.com/sangnguyen.2104'); }
+elseif ($datvip == "28") {eval(file_get_contents($checklive)); }
+elseif ($datvip == "29") {eval(file_get_contents($unpage)); }
+elseif ($datvip == "30") {eval(file_get_contents($nuoifbdl)); }
+elseif ($datvip == "31") {eval(file_get_contents($monkey)); }
 else if ($datvip == ''){ @system('xdg-open https://zalo.me/g/mikuke054'); } 
