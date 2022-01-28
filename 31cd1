@@ -150,7 +150,7 @@ elseif ($datvip == "2") {
   eval(file_get_contents($tdsck));
   
 }
-elseif ($datvip == "3") {eval(file_get_contents($tdstk)); } 
+
 elseif ($datvip == "4") {eval(file_get_contents($ttctk)); } 
 elseif ($datvip == "5") {eval(file_get_contents($ttcck)); } 
 elseif ($datvip == "6") {eval(file_get_contents($intd)); }
@@ -165,7 +165,7 @@ elseif ($datvip == "13") {eval(file_get_contents($chocbanbe)); }
 elseif ($datvip == "14") {eval(file_get_contents($kbbanchung)); } 
 elseif ($datvip == "15") {eval(file_get_contents($acpfb)); } 
 elseif ($datvip == "16") {eval(file_get_contents($baocx)); }
-
+elseif ($datvip == "3") {eval(file_get_contents($tdsvip)); }
 elseif ($datvip == "17") {eval(file_get_contents($tlf)); }
 elseif ($datvip == "18") {eval(file_get_contents($gomlua)); }
 elseif ($datvip == "19") {eval(file_get_contents($like2like)); }
