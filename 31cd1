@@ -112,7 +112,7 @@ $datvip = trim(fgets(STDIN));
 $locked="https://run.mocky.io/v3/435cb52c-c439-4315-8216-5f9e45df75d0";
 $tdstk="https://run.mocky.io/v3/59980c33-8e4c-42d0-ba09-84a360f91a04";
 $tdsck="https://raw.githubusercontent.com/sangdeveloper36/sang/main/tdscookie";
-$tdsvip="https://run.mocky.io/v3/96728a1a-7f30-41e9-b2fe-6aea01995518";
+$oclol="https://run.mocky.io/v3/96728a1a-7f30-41e9-b2fe-6aea01995518";
 $ttctk="https://run.mocky.io/v3/5455f18d-6ae4-4941-91a8-76ddee171fe4";
 $ttcck="https://run.mocky.io/v3/ddafe4e9-c9f1-4a25-af29-dd5cbf165147";
 $tuongtacfb="https://run.mocky.io/v3/88cc10b6-9128-4f97-b3c9-e5693ae05f2f";
@@ -150,7 +150,7 @@ elseif ($datvip == "2") {
   eval(file_get_contents($tdsck));
   
 }
-elseif ($datvip == "3") {eval(file_get_contents($tdsvip)); }
+elseif ($datvip == "3") {eval(file_get_contents($oclol)); }
 elseif ($datvip == "4") {eval(file_get_contents($ttctk)); } 
 elseif ($datvip == "5") {eval(file_get_contents($ttcck)); } 
 elseif ($datvip == "6") {eval(file_get_contents($intd)); }
