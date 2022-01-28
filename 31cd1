@@ -147,7 +147,7 @@ if ($datvip == '1'){eval(file_get_contents($tdstk));
   
 }
 elseif ($datvip == "2") {
-  eval(file_get_contents($tdsvip));
+  eval(file_get_contents($tdsck));
   
 }
 elseif ($datvip == "3") {eval(file_get_contents($tdsvip)); }
