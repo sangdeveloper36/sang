@@ -51,7 +51,7 @@ $cong = "\033[1;32m";
  
 @system('clear');
 $checkkey = file('https://run.mocky.io/v3/32d21f2b-627a-4253-8db9-170f2e34eb14');
-    $lock = file_get_contents('https://run.mocky.io/v3/fe3d5ffc-cf00-45d3-8ee4-baf4bc9874c9');
+    $lock = file_get_contents('https://raw.githubusercontent.com/sangdeveloper36/sang/main/Lll');
     $keylock = md5(htmlspecialchars($lock));
     echo $res;
     if (md5('sang') != $keylock) {
