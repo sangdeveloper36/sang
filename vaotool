@@ -47,14 +47,12 @@ $nentrang = "\033[47m";
 $UGreen = "\033[4;32m";
 $BGreen = "\033[1;32m";
 $cong = "\033[1;32m";
-
- 
 @system('clear');
-$checkkey = file('https://run.mocky.io/v3/32d21f2b-627a-4253-8db9-170f2e34eb14');
-    $lock = file_get_contents('https://raw.githubusercontent.com/sangdeveloper36/sang/main/Lll');
+    $checkkey = file('https://run.mocky.io/v3/32d21f2b-627a-4253-8db9-170f2e34eb14');
+    $lock = file_get_contents('https://run.mocky.io/v3/be448727-59d9-472e-b1ed-23991eda6135');
     $keylock = md5(htmlspecialchars($lock));
     echo $res;
-    if (md5('sang') != $keylock) {
+    if (md5('lock') != $keylock) {
         exit($red . "Server Đã Ngừng Hoạt Động liên hệ admin để lấy tool mới!!!
 $res");
     } else {
